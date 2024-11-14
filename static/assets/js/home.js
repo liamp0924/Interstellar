@@ -182,6 +182,7 @@ const SplashT = [
   "Subscribe to my Youtube (@xbubbo)",
   "Check out the settings page",
   "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "I do not condone the use of adult websites on this website -Liam",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
@@ -198,14 +199,12 @@ SplashE.addEventListener("click", US);
 // Random URL
 function getRandomUrl() {
   const randomUrls = [
-    "https://kahoot.it",
     "https://classroom.google.com",
     "https://drive.google.com",
     "https://google.com",
     "https://docs.google.com",
     "https://slides.google.com",
     "https://www.nasa.gov",
-    "https://blooket.com",
     "https://clever.com",
     "https://edpuzzle.com",
     "https://khanacademy.org",

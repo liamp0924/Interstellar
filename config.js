@@ -1,14 +1,12 @@
-const config = {
-  challenge: true, // Set to true if you want to enable password protection.
+const config = { // protection from all the grubby people trying to use this website for things not permitted
+  challenge: true,
   blocked: {
-    // Normal users can ignore this option. This is for the owner of the website.
     "gointerstellar.app": "",
   },
   users: {
-    // You can add multiple users by doing username: 'password'.
     lucas: "ermwhat",
     jacob: "skibidi",
-    liam: "b422edhk",
+    liam: "b422edhkk",
   },
 };
 
