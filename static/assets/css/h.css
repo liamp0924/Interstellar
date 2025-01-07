@@ -38,9 +38,9 @@
 .search-container {
    display: flex;
    width: 100%;
-   text-align: left;
-   justify-content: left;
-   align-items: left;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
 }
 
 .search-home {
