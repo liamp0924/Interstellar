@@ -46,7 +46,7 @@ app.get("/e/*", async (req, res, next) => {
     }
 
     const baseUrls = {
-      "/e/1/": "https://raw.githubusercontent.com/qrs/x/fixy/",
+      "/e/1/": "https://raw.githubusercontent.com/liamp0924/x/fixy",
       "/e/2/": "https://raw.githubusercontent.com/3v1/V5-Assets/main/",
       "/e/3/": "https://raw.githubusercontent.com/3v1/V5-Retro/master/",
     };
