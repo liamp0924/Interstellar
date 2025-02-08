@@ -5,8 +5,10 @@ const config = {
     interstellar: "password",
     liam: "ghghgh",
     lorynn: "0304",
+    lorynn: "0304",
     lucas: "ermwhat",
     jacob: "skibidi",
+    robert: "applejuice",
   },
 };
 
