@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui, shrink-to-fit=yes">
+    <title>Study.com | 404</title>
+    <link href="/styles.css" rel="stylesheet" type="text/css" />
+    <link href="/sys/alert.css" rel="stylesheet" type="text/css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="/images/logo.gif">
+    <meta property="og:title" content="frogie's arcade">
+    <meta name="theme-color" content="#00ffa6">
+    <meta name="msapplication-TileColor" content="#00ffa6">
+    <meta property="og:image" content="/images/logo.gif">
+    <meta name="description" content="this page doesn't exist, don't bother clicking!">
+    <script src="/sys/login.js"></script>
+    <script src="/moresettings.js"></script>
+    <meta property="og:description" content="this page doesn't exist, don't bother clicking!">
+    <meta http-equiv="Content-Security-Policy"
+        content="script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://apis.google.com/ https://www.authpro.com https://www.googletagmanager.com https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://static.cloudflareinsights.com https://cdn.jsdelivr.net https://widgetbot.io https://docs.widgetbot.io 'unsafe-inline';">
+    <style>
+        body {
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .rainbowtitle {
+            display: inline-block;
+        }
+
+        h1 {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="roddyrichhesbox">
+        <div id="main">
+            <br>
+            <br>
+            <br>
+            <h1>hey! this game is stupid and doesn't allow iframes, so to play you will need to click the button below to open the game in a new cloaked window.</h1>
+            <br>
+            <button id="cloaker" onclick="openInNewWindow()">open game!</button>
+            <script>
+                    let height = window.innerHeight;
+ let width = window.innerWidth; 
+ async function openInNewWindow() {
+							 
+ const myWindow = window.open("/compiled/buckshot-roulette/", "", "width="+width+",height="+height);
+ }
+ 
+ 
+ async function start_game_frame() {
+ 
+ let frame_game = document.createElement('iframe');
+ frame_game.setAttribute('id', 'iframehtml5');
+ frame_game.setAttribute('width', '100%');
+ frame_game.setAttribute('height', '100%');
+ frame_game.setAttribute('frameborder', '0');
+ frame_game.setAttribute('border', '0');
+ frame_game.setAttribute('scrolling', 'no');
+ frame_game.setAttribute('class', 'iframe-default');
+ frame_game.setAttribute('allowfullscreen', 'true');
+ frame_game.setAttribute('src', 'https://html-classic.itch.zone/html/4675649/index.html');
+ if (document.getElementById("preloading-game")) {
+ await document.getElementById("preloading-game").remove();
+ }
+ document.body.append(frame_game);
+ }
+
+              </script>
+        </div>
+    </div>
+    <div id="background"></div>
+    <div id="particles-js"></div>
+    <script src="/particles.js"></script>
+    <script src="/app.js"></script>
+
+</body>
+
+</html>
